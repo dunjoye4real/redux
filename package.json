@@ -62,6 +62,7 @@
   },
   "homepage": "http://redux.js.org",
   "dependencies": {
+    "cypress": "^2.1.0",
     "lodash": "^4.2.1",
     "lodash-es": "^4.2.1",
     "loose-envify": "^1.1.0",
