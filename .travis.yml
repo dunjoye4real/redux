@@ -15,7 +15,7 @@ cache:
     - node_modules
 
 install:
-  - npm install
+ ## - npm install
 
 before_script:
   ## runs the 'start' script which
