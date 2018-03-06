@@ -15,6 +15,13 @@
     "index.d.ts"
   ],
   "scripts": {
+    "cypress:version": "cypress version",
+    "cypress:verify": "cypress verify",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:record": "cypress run --record",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:headed": "cypress run --headed",
     "clean": "rimraf lib dist es coverage",
     "lint": "eslint src test build",
     "test": "cross-env BABEL_ENV=commonjs jest",
